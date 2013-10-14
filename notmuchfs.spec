@@ -13,6 +13,8 @@ Source0:        https://github.com/tsto/notmuchfs/archive/%{commit}/%{name}-%{ve
 BuildRequires:  notmuch-devel
 BuildRequires:	fuse-devel
 
+Requires:	fuse
+
 %description
 Notmuchfs implements a virtual file system which creates maildirs from notmuch
 mail query results. This is useful for using notmuch with tools which are not
